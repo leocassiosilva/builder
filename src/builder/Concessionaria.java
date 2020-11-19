@@ -21,6 +21,10 @@ public class Concessionaria {
     public MotoBuilder getMontadora() {
         return montadora;
     }
+
+    MotoProduct getMoto() {
+        return montadora.getMoto();
+    }
     
     
 }
