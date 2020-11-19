@@ -4,7 +4,7 @@ package builder;
  *
  * @author Leocassio
  */
-public class Builder {
+public class Cliente {
     public static void main(String[] args) {
         Concessionaria concessionaria = new Concessionaria(new HondaBuilder());
         concessionaria.construirMoto();
